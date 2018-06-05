@@ -15,5 +15,4 @@ mkdir build; cd build
 cmake -DIGC_OPTION__OUTPUT_DIR=../igc-install/Release \
     -DCMAKE_BUILD_TYPE=Release -DIGC_OPTION__ARCHITECTURE_TARGET=Linux64 \
     ../igc/IGC
-make -j 2
-
+make -j 1
